@@ -1,13 +1,8 @@
 #!/bin/bash
 # Shell wrapper for R executable.
 
-<<<<<<< HEAD
-R_HOME_DIR=/home/ctx/galaxy/galaxyTools/tools/oqtans/sw_require/R-2.14.1/lib/R
-if test "${R_HOME_DIR}" = "/home/ctx/galaxy/galaxyTools/tools/oqtans/sw_require/R-2.14.1/lib/R"; then
-=======
 R_HOME_DIR=/mnt/oqtansTools/oqtans_dep/R-2.14.1/lib64/R
 if test "${R_HOME_DIR}" = "/mnt/oqtansTools/oqtans_dep/R-2.14.1/lib64/R"; then
->>>>>>> master
    case "linux-gnu" in
    linux*)
      run_arch=`uname -m`
@@ -21,17 +16,10 @@ if test "${R_HOME_DIR}" = "/mnt/oqtansTools/oqtans_dep/R-2.14.1/lib64/R"; then
           libnn_fallback=lib64
         ;;
      esac
-<<<<<<< HEAD
-     if [ -x "/home/ctx/galaxy/galaxyTools/tools/oqtans/sw_require/R-2.14.1/${libnn}/R/bin/exec/R" ]; then
-        R_HOME_DIR="/home/ctx/galaxy/galaxyTools/tools/oqtans/sw_require/R-2.14.1/${libnn}/R"
-     elif [ -x "/home/ctx/galaxy/galaxyTools/tools/oqtans/sw_require/R-2.14.1/${libnn_fallback}/R/bin/exec/R" ]; then
-        R_HOME_DIR="/home/ctx/galaxy/galaxyTools/tools/oqtans/sw_require/R-2.14.1/${libnn_fallback}/R"
-=======
      if [ -x "/mnt/oqtansTools/oqtans_dep/R-2.14.1/${libnn}/R/bin/exec/R" ]; then
         R_HOME_DIR="/mnt/oqtansTools/oqtans_dep/R-2.14.1/${libnn}/R"
      elif [ -x "/mnt/oqtansTools/oqtans_dep/R-2.14.1/${libnn_fallback}/R/bin/exec/R" ]; then
         R_HOME_DIR="/mnt/oqtansTools/oqtans_dep/R-2.14.1/${libnn_fallback}/R"
->>>>>>> master
      ## else -- leave alone (might be a sub-arch)
      fi
      ;;
@@ -44,19 +32,11 @@ if test -n "${R_HOME}" && \
 fi
 R_HOME="${R_HOME_DIR}"
 export R_HOME
-<<<<<<< HEAD
-R_SHARE_DIR=/home/ctx/galaxy/galaxyTools/tools/oqtans/sw_require/R-2.14.1/lib/R/share
-export R_SHARE_DIR
-R_INCLUDE_DIR=/home/ctx/galaxy/galaxyTools/tools/oqtans/sw_require/R-2.14.1/lib/R/include
-export R_INCLUDE_DIR
-R_DOC_DIR=/home/ctx/galaxy/galaxyTools/tools/oqtans/sw_require/R-2.14.1/lib/R/doc
-=======
 R_SHARE_DIR=/mnt/oqtansTools/oqtans_dep/R-2.14.1/lib64/R/share
 export R_SHARE_DIR
 R_INCLUDE_DIR=/mnt/oqtansTools/oqtans_dep/R-2.14.1/lib64/R/include
 export R_INCLUDE_DIR
 R_DOC_DIR=/mnt/oqtansTools/oqtans_dep/R-2.14.1/lib64/R/doc
->>>>>>> master
 export R_DOC_DIR
 
 # Since this script can be called recursively, we allow R_ARCH to
