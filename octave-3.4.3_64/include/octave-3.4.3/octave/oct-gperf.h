@@ -1,4 +1,4 @@
-/* C++ code produced by gperf version 3.0.3 */
+/* C++ code produced by gperf version 3.0.4 */
 /* Command-line: gperf -t -C -D -G -L C++ -Z octave_kw_hash octave.gperf  */
 /* Computed positions: -k'1,5' */
 

@@ -17,7 +17,7 @@ old_library=''
 inherited_linker_flags=' -pthread'
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/mnt/galaxyTools/tools/oqtans/sw_require/lib/ /mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/lib/octave/3.4.3/liboctave.la -lamd -lcamd -lcolamd -lccolamd -lcxsparse -lqrupdate -lpcre -ldl /mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/lib/octave/3.4.3/libcruft.la -lfftw3 -lfftw3f /usr/lib/x86_64-linux-gnu/libfreetype.la /usr/lib/libhdf5.la -lpthread -lz -lfontconfig -lGL -lGLU -lX11 -lreadline -lncurses -llapack -lblas -lgfortran -lquadmath'
+dependency_libs=' -L/mnt/oqtansTools/oqtans_dep/lib/ -L/opt/local/lib /mnt/oqtansTools/oqtans_dep/octave-3.4.3/lib/octave/3.4.3/liboctave.la -lcholmod -lumfpack -lsuitesparseconfig -lamd -lcamd -lcolamd -lccolamd -lcxsparse -lqrupdate -lpcre -ldl /mnt/oqtansTools/oqtans_dep/octave-3.4.3/lib/octave/3.4.3/libcruft.la /usr/lib/x86_64-linux-gnu/libfreetype.la /usr/lib/libhdf5.la -lpthread -lz -lfontconfig -lGL -lGLU -lX11 -lreadline -lncurses -llapack -lblas -lgfortran -lquadmath'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/lib/octave/3.4.3'
+libdir='/mnt/oqtansTools/oqtans_dep/octave-3.4.3/lib/octave/3.4.3'

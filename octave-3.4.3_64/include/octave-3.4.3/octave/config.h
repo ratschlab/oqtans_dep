@@ -450,7 +450,7 @@
 #define HAVE_CHMOD 1
 
 /* Define if CHOLMOD is available. */
-/* #undef HAVE_CHOLMOD */
+#define HAVE_CHOLMOD 1
 
 /* Define to 1 if you have the <cholmod/cholmod.h> header file. */
 /* #undef HAVE_CHOLMOD_CHOLMOD_H */
@@ -749,13 +749,13 @@
 #define HAVE_FEATURES_H 1
 
 /* Define if FFTW3 is available. */
-#define HAVE_FFTW3 1
+/* #undef HAVE_FFTW3 */
 
 /* Define if FFTW3F is available. */
-#define HAVE_FFTW3F 1
+/* #undef HAVE_FFTW3F */
 
 /* Define to 1 if you have the <fftw3.h> header file. */
-#define HAVE_FFTW3_H 1
+/* #undef HAVE_FFTW3_H */
 
 /* Define to 1 if you have the `finite' function. */
 #define HAVE_FINITE 1
@@ -1005,7 +1005,7 @@
 #define HAVE_LSTAT 1
 
 /* Define if Graphics/ImageMagick++ is available. */
-/* #undef HAVE_MAGICK */
+#define HAVE_MAGICK 1
 
 /* Define if the 'malloc' function is POSIX compliant. */
 #define HAVE_MALLOC_POSIX 1
@@ -1982,7 +1982,7 @@
 #define HAVE_SUITESPARSE_CS_H 1
 
 /* Define to 1 if you have the <suitesparse/umfpack.h> header file. */
-/* #undef HAVE_SUITESPARSE_UMFPACK_H */
+#define HAVE_SUITESPARSE_UMFPACK_H 1
 
 /* Define to 1 if you have the <sunmath.h> header file. */
 /* #undef HAVE_SUNMATH_H */
@@ -2130,7 +2130,7 @@
 #define HAVE_UMASK 1
 
 /* Define if UMFPACK is available. */
-/* #undef HAVE_UMFPACK */
+#define HAVE_UMFPACK 1
 
 /* Define to 1 if you have the <umfpack.h> header file. */
 /* #undef HAVE_UMFPACK_H */

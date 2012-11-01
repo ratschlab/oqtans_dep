@@ -28,13 +28,13 @@ set -e
 : ${SED="/bin/sed"}
 
 OCTAVE_VERSION="3.4.3"
-OCTAVE_PREFIX="/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64"
+OCTAVE_PREFIX="/mnt/oqtansTools/oqtans_dep/octave-3.4.3"
 
-DEFAULT_BINDIR="/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/bin"
-DEFAULT_INCLUDEDIR="/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/include"
-DEFAULT_LIBDIR="/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/lib"
-DEFAULT_OCTINCLUDEDIR="/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/include/octave-3.4.3/octave"
-DEFAULT_OCTLIBDIR="/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/lib/octave/3.4.3"
+DEFAULT_BINDIR="/mnt/oqtansTools/oqtans_dep/octave-3.4.3/bin"
+DEFAULT_INCLUDEDIR="/mnt/oqtansTools/oqtans_dep/octave-3.4.3/include"
+DEFAULT_LIBDIR="/mnt/oqtansTools/oqtans_dep/octave-3.4.3/lib"
+DEFAULT_OCTINCLUDEDIR="/mnt/oqtansTools/oqtans_dep/octave-3.4.3/include/octave-3.4.3/octave"
+DEFAULT_OCTLIBDIR="/mnt/oqtansTools/oqtans_dep/octave-3.4.3/lib/octave/3.4.3"
 
 if [ -n "$OCTAVE_HOME" ]; then
   DEFAULT_BINDIR="`echo $DEFAULT_BINDIR | $SED "s,^$OCTAVE_PREFIX,$OCTAVE_HOME,"`"
@@ -65,7 +65,7 @@ fi
 
 : ${EXEEXT=""}
 
-: ${CPPFLAGS="-I/mnt/galaxyTools/tools/oqtans/sw_require/include"}
+: ${CPPFLAGS="-I/mnt/oqtansTools/oqtans_dep/include"}
 : ${INCFLAGS=$DEFAULT_INCFLAGS}
 : ${F77="gfortran"}
 : ${FFLAGS="-O"}
@@ -85,7 +85,7 @@ fi
 : ${DL_LD="g++"}
 : ${DL_LDFLAGS="-shared -Wl,-Bsymbolic"}
 
-: ${RLD_FLAG="-Wl,-rpath -Wl,/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/lib/octave/3.4.3"}
+: ${RLD_FLAG="-Wl,-rpath -Wl,/mnt/oqtansTools/oqtans_dep/octave-3.4.3/lib/octave/3.4.3"}
 : ${RDYNAMIC_FLAG="-rdynamic"}
 : ${LIBOCTAVE=-loctave}
 : ${LIBOCTINTERP=-loctinterp}
@@ -94,13 +94,13 @@ fi
 : ${LAPACK_LIBS="-llapack"}
 : ${BLAS_LIBS="-lblas"}
 : ${FFTW3_LDFLAGS=""}
-: ${FFTW3_LIBS="-lfftw3"}
+: ${FFTW3_LIBS=""}
 : ${FFTW3F_LDFLAGS=""}
-: ${FFTW3F_LIBS="-lfftw3f"}
-: ${LIBS="-lm  -L/mnt/galaxyTools/tools/oqtans/sw_require/lib/"}
-: ${FLIBS="-L/mnt/galaxyTools/tools/oqtans/sw_require/lib/ -L/usr/lib/gcc/x86_64-linux-gnu/4.6 -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../.. -lgfortran -lm -lquadmath"}
+: ${FFTW3F_LIBS=""}
+: ${LIBS="-lm  -L/mnt/oqtansTools/oqtans_dep/lib/ -L/opt/local/lib"}
+: ${FLIBS="-L/mnt/oqtansTools/oqtans_dep/lib/ -L/opt/local/lib -L/usr/lib/gcc/x86_64-linux-gnu/4.6 -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../.. -lgfortran -lm -lquadmath"}
 : ${LD_CXX="g++"}
-: ${LDFLAGS="-L/mnt/galaxyTools/tools/oqtans/sw_require/lib/"}
+: ${LDFLAGS="-L/mnt/oqtansTools/oqtans_dep/lib/ -L/opt/local/lib"}
 : ${LD_STATIC_FLAG=""}
 : ${LFLAGS=$DEFAULT_LFLAGS}
 : ${F77_INTEGER_8_FLAG="-fdefault-integer-8"}

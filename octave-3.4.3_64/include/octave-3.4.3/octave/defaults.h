@@ -37,103 +37,103 @@ along with Octave; see the file COPYING.  If not, see
 #endif
 
 #ifndef OCTAVE_ARCHLIBDIR
-#define OCTAVE_ARCHLIBDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/libexec/octave/3.4.3/exec/x86_64-unknown-linux-gnu"
+#define OCTAVE_ARCHLIBDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/libexec/octave/3.4.3/exec/x86_64-unknown-linux-gnu"
 #endif
 
 #ifndef OCTAVE_BINDIR
-#define OCTAVE_BINDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/bin"
+#define OCTAVE_BINDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/bin"
 #endif
 
 #ifndef OCTAVE_DATADIR
-#define OCTAVE_DATADIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/share"
+#define OCTAVE_DATADIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/share"
 #endif
 
 #ifndef OCTAVE_DATAROOTDIR
-#define OCTAVE_DATAROOTDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/share"
+#define OCTAVE_DATAROOTDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/share"
 #endif
 
 #ifndef OCTAVE_DOC_CACHE_FILE
-#define OCTAVE_DOC_CACHE_FILE "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/share/octave/3.4.3/etc/doc-cache"
+#define OCTAVE_DOC_CACHE_FILE "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/share/octave/3.4.3/etc/doc-cache"
 #endif
 
 #ifndef OCTAVE_EXEC_PREFIX
-#define OCTAVE_EXEC_PREFIX "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64"
+#define OCTAVE_EXEC_PREFIX "/mnt/oqtansTools/oqtans_dep/octave-3.4.3"
 #endif
 
 #ifndef OCTAVE_FCNFILEDIR
-#define OCTAVE_FCNFILEDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/share/octave/3.4.3/m"
+#define OCTAVE_FCNFILEDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/share/octave/3.4.3/m"
 #endif
 
 #ifndef OCTAVE_IMAGEDIR
-#define OCTAVE_IMAGEDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/share/octave/3.4.3/imagelib"
+#define OCTAVE_IMAGEDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/share/octave/3.4.3/imagelib"
 #endif
 
 #ifndef OCTAVE_INCLUDEDIR
-#define OCTAVE_INCLUDEDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/include"
+#define OCTAVE_INCLUDEDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/include"
 #endif
 
 #ifndef OCTAVE_INFODIR
-#define OCTAVE_INFODIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/share/info"
+#define OCTAVE_INFODIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/share/info"
 #endif
 
 #ifndef OCTAVE_INFOFILE
-#define OCTAVE_INFOFILE "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/share/info/octave.info"
+#define OCTAVE_INFOFILE "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/share/info/octave.info"
 #endif
 
 #ifndef OCTAVE_LIBDIR
-#define OCTAVE_LIBDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/lib"
+#define OCTAVE_LIBDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/lib"
 #endif
 
 #ifndef OCTAVE_LIBEXECDIR
-#define OCTAVE_LIBEXECDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/libexec"
+#define OCTAVE_LIBEXECDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/libexec"
 #endif
 
 #ifndef OCTAVE_LIBEXECDIR
-#define OCTAVE_LIBEXECDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/libexec"
+#define OCTAVE_LIBEXECDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/libexec"
 #endif
 
 #ifndef OCTAVE_LOCALAPIFCNFILEDIR
-#define OCTAVE_LOCALAPIFCNFILEDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/share/octave/site/api-v45+/m"
+#define OCTAVE_LOCALAPIFCNFILEDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/share/octave/site/api-v45+/m"
 #endif
 
 #ifndef OCTAVE_LOCALAPIOCTFILEDIR
-#define OCTAVE_LOCALAPIOCTFILEDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/lib/octave/site/oct/api-v45+/x86_64-unknown-linux-gnu"
+#define OCTAVE_LOCALAPIOCTFILEDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/lib/octave/site/oct/api-v45+/x86_64-unknown-linux-gnu"
 #endif
 
 #ifndef OCTAVE_LOCALARCHLIBDIR
-#define OCTAVE_LOCALARCHLIBDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/libexec/octave/site/exec/x86_64-unknown-linux-gnu"
+#define OCTAVE_LOCALARCHLIBDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/libexec/octave/site/exec/x86_64-unknown-linux-gnu"
 #endif
 
 #ifndef OCTAVE_LOCALFCNFILEDIR
-#define OCTAVE_LOCALFCNFILEDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/share/octave/site/m"
+#define OCTAVE_LOCALFCNFILEDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/share/octave/site/m"
 #endif
 
 #ifndef OCTAVE_LOCALOCTFILEDIR
-#define OCTAVE_LOCALOCTFILEDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/lib/octave/site/oct/x86_64-unknown-linux-gnu"
+#define OCTAVE_LOCALOCTFILEDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/lib/octave/site/oct/x86_64-unknown-linux-gnu"
 #endif
 
 #ifndef OCTAVE_LOCALSTARTUPFILEDIR
-#define OCTAVE_LOCALSTARTUPFILEDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/share/octave/site/m/startup"
+#define OCTAVE_LOCALSTARTUPFILEDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/share/octave/site/m/startup"
 #endif
 
 #ifndef OCTAVE_LOCALAPIARCHLIBDIR
-#define OCTAVE_LOCALAPIARCHLIBDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/libexec/octave/api-v45+/site/exec/x86_64-unknown-linux-gnu"
+#define OCTAVE_LOCALAPIARCHLIBDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/libexec/octave/api-v45+/site/exec/x86_64-unknown-linux-gnu"
 #endif
 
 #ifndef OCTAVE_LOCALVERARCHLIBDIR
-#define OCTAVE_LOCALVERARCHLIBDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/libexec/octave/3.4.3/site/exec/x86_64-unknown-linux-gnu"
+#define OCTAVE_LOCALVERARCHLIBDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/libexec/octave/3.4.3/site/exec/x86_64-unknown-linux-gnu"
 #endif
 
 #ifndef OCTAVE_LOCALVERFCNFILEDIR
-#define OCTAVE_LOCALVERFCNFILEDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/share/octave/3.4.3/site/m"
+#define OCTAVE_LOCALVERFCNFILEDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/share/octave/3.4.3/site/m"
 #endif
 
 #ifndef OCTAVE_LOCALVEROCTFILEDIR
-#define OCTAVE_LOCALVEROCTFILEDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/lib/octave/3.4.3/site/oct/x86_64-unknown-linux-gnu"
+#define OCTAVE_LOCALVEROCTFILEDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/lib/octave/3.4.3/site/oct/x86_64-unknown-linux-gnu"
 #endif
 
 #ifndef OCTAVE_MAN1DIR
-#define OCTAVE_MAN1DIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/share/man/man1"
+#define OCTAVE_MAN1DIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/share/man/man1"
 #endif
 
 #ifndef OCTAVE_MAN1EXT
@@ -141,31 +141,31 @@ along with Octave; see the file COPYING.  If not, see
 #endif
 
 #ifndef OCTAVE_MANDIR
-#define OCTAVE_MANDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/share/man"
+#define OCTAVE_MANDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/share/man"
 #endif
 
 #ifndef OCTAVE_OCTFILEDIR
-#define OCTAVE_OCTFILEDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/lib/octave/3.4.3/oct/x86_64-unknown-linux-gnu"
+#define OCTAVE_OCTFILEDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/lib/octave/3.4.3/oct/x86_64-unknown-linux-gnu"
 #endif
 
 #ifndef OCTAVE_OCTETCDIR
-#define OCTAVE_OCTETCDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/share/octave/3.4.3/etc"
+#define OCTAVE_OCTETCDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/share/octave/3.4.3/etc"
 #endif
 
 #ifndef OCTAVE_OCTINCLUDEDIR
-#define OCTAVE_OCTINCLUDEDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/include/octave-3.4.3/octave"
+#define OCTAVE_OCTINCLUDEDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/include/octave-3.4.3/octave"
 #endif
 
 #ifndef OCTAVE_OCTLIBDIR
-#define OCTAVE_OCTLIBDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/lib/octave/3.4.3"
+#define OCTAVE_OCTLIBDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/lib/octave/3.4.3"
 #endif
 
 #ifndef OCTAVE_PREFIX
-#define OCTAVE_PREFIX "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64"
+#define OCTAVE_PREFIX "/mnt/oqtansTools/oqtans_dep/octave-3.4.3"
 #endif
 
 #ifndef OCTAVE_STARTUPFILEDIR
-#define OCTAVE_STARTUPFILEDIR "/mnt/galaxyTools/tools/oqtans/sw_require/octave-3.4.3_64/share/octave/3.4.3/m/startup"
+#define OCTAVE_STARTUPFILEDIR "/mnt/oqtansTools/oqtans_dep/octave-3.4.3/share/octave/3.4.3/m/startup"
 #endif
 
 #ifndef OCTAVE_RELEASE

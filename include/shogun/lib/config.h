@@ -39,7 +39,7 @@
 
 
 
-
+#define USE_LZO 1
 #define USE_GZIP 1
 #define USE_BZIP2 1
 

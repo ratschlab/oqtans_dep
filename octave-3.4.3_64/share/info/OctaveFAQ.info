@@ -1,4 +1,4 @@
-This is OctaveFAQ.info, produced by makeinfo version 4.13 from OctaveFAQ.texi.
+This is /home/jwe/src/octave-stable/doc/faq/OctaveFAQ.info, produced by makeinfo version 4.13 from /home/jwe/src/octave-stable/doc/faq/OctaveFAQ.texi.
 
 START-INFO-DIR-ENTRY
 * OctaveFAQ: (OctaveFAQ).  Frequently asked questions about Octave
@@ -1231,46 +1231,46 @@ Appendix A Concept Index
 
 
 Tag Table:
-Node: Top188
-Node: What is Octave?1233
-Ref: What is Octave?-Footnote-12457
-Node: Who develops Octave?2521
-Node: Why GNU Octave?3291
-Node: What version should I use?4099
-Node: On what platforms does Octave run?4746
-Node: Licensing Issues5951
-Node: GPL6607
-Node: Licensing MEX Files8572
-Node: Requesting License Changes9618
-Node: How can I cite Octave?10394
-Node: Series 3.4.N11072
-Node: Octave Features13756
-Node: Functions defined on the command-line14331
-Node: Comments with #14893
-Node: Strings delimited by double quotes "15420
-Node: Line continuation by backslash15923
-Node: Informative block closing16267
-Node: Coherent syntax16737
-Node: Exclamation mark as not operator17082
-Node: Increment and decrement operators17664
-Node: Unwind-protect18719
-Node: Built-in ODE and DAE solvers19655
-Node: Learning more about Octave20002
-Node: Documentation20290
-Node: Getting additional help21140
-Node: User community21564
-Node: Bug reports22298
-Node: Getting Octave22963
-Node: Source code23201
-Node: Pre-compiled binary packages23662
-Node: Octave for other platforms24253
-Node: Installation24730
-Node: What else do I need?25279
-Node: Other C++ compilers?25764
-Node: Common problems26299
-Node: How do I ...?27640
-Node: How do I set the number of displayed decimals?27845
-Node: MATLAB compatibility28185
-Node: Index45419
+Node: Top260
+Node: What is Octave?1305
+Ref: What is Octave?-Footnote-12529
+Node: Who develops Octave?2593
+Node: Why GNU Octave?3363
+Node: What version should I use?4171
+Node: On what platforms does Octave run?4818
+Node: Licensing Issues6023
+Node: GPL6679
+Node: Licensing MEX Files8644
+Node: Requesting License Changes9690
+Node: How can I cite Octave?10466
+Node: Series 3.4.N11144
+Node: Octave Features13828
+Node: Functions defined on the command-line14403
+Node: Comments with #14965
+Node: Strings delimited by double quotes "15492
+Node: Line continuation by backslash15995
+Node: Informative block closing16339
+Node: Coherent syntax16809
+Node: Exclamation mark as not operator17154
+Node: Increment and decrement operators17736
+Node: Unwind-protect18791
+Node: Built-in ODE and DAE solvers19727
+Node: Learning more about Octave20074
+Node: Documentation20362
+Node: Getting additional help21212
+Node: User community21636
+Node: Bug reports22370
+Node: Getting Octave23035
+Node: Source code23273
+Node: Pre-compiled binary packages23734
+Node: Octave for other platforms24325
+Node: Installation24802
+Node: What else do I need?25351
+Node: Other C++ compilers?25836
+Node: Common problems26371
+Node: How do I ...?27712
+Node: How do I set the number of displayed decimals?27917
+Node: MATLAB compatibility28257
+Node: Index45491
 
 End Tag Table
