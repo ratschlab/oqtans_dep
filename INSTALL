@@ -40,15 +40,16 @@ Mac OS X (macports packages with system python v2.7)
      sudo port select --set gcc mp-gcc46
 
 Update the file
-   oqtans/oqtans_conf.sh
-to reflect the location of oqtans components and source it in galaxy's ~/.bashrc.
+    oqtans/oqtans_config.sh
+    to reflect the location of oqtans components and source it in galaxy's ~/.bashrc.
 
-In addition we need the following software packages:
-   octave version>=3.4, shogun version>=1.1, R version>=2, glpk, scipy version>=0.10, swig, samtools, numpy version>=1.6
-These packages are available precompiled from 
-   https://github.com/ratschlab/oqtans_dep
-for multiple platforms.
+The packages are available precompiled from 
+    https://github.com/ratschlab/oqtans_dep
+    for multiple platforms.
+
 The source code of these packages together with additional instructions are avialable from
-   https://github.com/ratschlab/oqtans_src
+    https://github.com/ratschlab/oqtans_src
 
 Please find additional instructions at http://oqtans.org/install.
+
+support [at] oqtans.org 
